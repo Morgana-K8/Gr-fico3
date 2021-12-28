@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplol Canvas</title>
+    <script type="text/javascript">
+        function dibujarCanvas() {
+            var canvas = document.getElementById('miCanvas');
+            var contexto = canvas.getContext('2d');
+            contexto.fillStyle = 'green';
+            contexto.fillRect(0, 0, 450, 500);
+        }
+    </script>
+</head>
+<body onload="dibujarCanvas();">
+    <canvas id="miCanvas" width="450" height="500">Su navegador no suporta canvas.</canvas>
+    <p>aulaClic Canvas</p>
+    
+</body>
+</html>
